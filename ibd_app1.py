@@ -112,7 +112,7 @@ col_input, col_output = st.columns([3, 1])  # input wider, predictions on right
 features = {}
 with col_input:
     # REMOVED st.markdown("<br>", unsafe_allow_html=True) to reduce space after the horizontal line
-    st.header("In the below fields,provide information about your dietary habits. Select the level of consumption for each food item (0 = None, 37 = High).")
+    st.header("In the below fields,provide information about your dietary habits.Select the level of consumption for each food item (0=None,37=High).")
     st.markdown("<br>", unsafe_allow_html=True)
 
     n = len(feature_names)
