@@ -77,7 +77,7 @@ with col_title:
 
 
 with col_logo_right:
-    st.markdown('<img src="https://tse2.mm.bing.net/th/id/OIP.fNb1hJAUj-8vwANfP3SDJgAAAA?pid=Api&P=0&h=180" class="logo-right">', unsafe_allow_html=True)
+    st.markdown('<img src="https://raw.githubusercontent.com/gmaheshkumar15/ibd_similarity_score_-predictor/main/dmch.jpeg" class="logo-right">', unsafe_allow_html=True)
     st.markdown('<div class="institute-name">Dayanand Medical College and Hospital Ludhiana</div>', unsafe_allow_html=True)
 
 # -----------------------------
