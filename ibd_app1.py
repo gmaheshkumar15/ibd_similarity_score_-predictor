@@ -86,7 +86,7 @@ with col_logo_right:
 st.markdown("<hr style='border: 1px solid black;'>", unsafe_allow_html=True)
 st.markdown("""
 <p style='text-align:left; font-size:20px; color:black; line-height:1.5;'>
-This tool uses a machine learning model to estimate the similarity of your diet with those consumed by patients prior to an Inflammatory Bowel Disease (IBD) diagnosis. It Uses a Logistic Regression model to estimate prediction. The ML model was trained based on data from a dietary survey conducted by DMCH Ludhiana among IBD patients and controls without IBD. IBD patients were asked to report their dietary habits prior to diagnosis, and controls were asked to report current food habits.</p>
+This tool uses a machine learning model to estimate the similarity of your diet with those consumed by patients prior to an Inflammatory Bowel Disease (IBD) diagnosis. It uses a Logistic Regression model to estimate prediction. The ML model was trained based on data from a dietary survey conducted by DMCH Ludhiana among IBD patients and controls without IBD. IBD patients were asked to report their dietary habits prior to diagnosis, and controls were asked to report current food habits.</p>
 """, unsafe_allow_html=True)
 st.markdown("<hr style='border: 1px solid black;'>", unsafe_allow_html=True)
 
@@ -132,7 +132,7 @@ col_input, col_output = st.columns([3, 1])
 # -------- Input Section --------
 features = {}
 with col_input:
-    st.header("In the below fields,provide information about your dietary habits.Select the level of consumption for each food item .")
+    st.header("In the below fields, provide information about your dietary habits. Select the level of consumption for each food item (higher values indicate higher consumption and vice versa.")
 
 
     n = len(feature_names)
