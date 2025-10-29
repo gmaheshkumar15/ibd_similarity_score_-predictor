@@ -132,7 +132,7 @@ col_input, col_output = st.columns([3, 1])
 # -------- Input Section --------
 features = {}
 with col_input:
-    st.header("In the below fields, provide information about your dietary habits. Select the level of consumption for each food item (higher values indicate higher consumption and vice versa.")
+    st.header("In the below fields, provide information about your dietary habits. Select the level of consumption for each food item (higher values indicate higher consumption, and vice versa.")
 
 
     n = len(feature_names)
